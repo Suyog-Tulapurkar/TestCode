@@ -2,7 +2,7 @@ import sys
 import helper
 
 def time(hr, min, sec):
-    convertHr(hr)
+    helper.convertHr(hr)
     print('The time is ', hr, ' ', min, ' ', sec)
 
 
